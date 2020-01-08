@@ -1,3 +1,69 @@
 body {
     font-family: 'Archivo', sans-serif;
+    margin: 0px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 1rem;;
+}
+
+strong {
+    font-size: 1.1rem;
+}
+
+/*---------------- Sections-------------------*/
+
+/* Main Section */
+#main {
+    margin: 0px;;
+}
+
+/* Title Section */
+#title {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 60px 0px;
+}
+
+/* Image Section */
+#img-div {
+    text-align: center;
+    padding: 20px 0px 30px;
+}
+
+#image {
+    text-align: center;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 20px auto 30px;
+}
+
+/* Timeline/Tribute Section */
+#tribute-info {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 40px;;
+}
+
+#list-item {
+    margin: 20px auto;
+    max-width: 30%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#quote {
+    max-width: 28%;
+    margin: 40px auto 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#quote-caption {
+    max-width: 28%;
+    margin: 20px auto 40px;
+    text-align: left;
+    font-style: italic;
 }
