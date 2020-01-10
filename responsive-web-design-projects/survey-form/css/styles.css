@@ -1,0 +1,118 @@
+/* ----- General Selectors ----- */
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f8faff;
+    color: #20355a;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* ----- Typography ----- */
+h1 {
+    margin: 0px 0px 10px ;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+/* ---------- Sections ---------- */
+/* Title Section */
+.title-section {
+    text-align: center;
+    padding: 60px 0 40px;
+}
+
+/* Form Section */
+.form-section {
+    width: 34%;
+    margin: 0px auto;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 18px 18px 45px 0 rgba(79,94,120,.15);
+}
+
+#form-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 0;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#checkbox {
+    color: #445567;
+    font-size: 1.2rem;
+}
+
+#radio {
+    color: #445567;
+    font-size: 1.2rem;
+}
+
+input[type=text], input[type=email] {
+    width: 97%;
+    min-height: 45px;
+    border: 1px #000;
+    border-radius: 6px;
+    padding-left: 20px;
+    background-color: #f5f5fa;
+    line-height: 1.2;
+    color: #333;
+}
+
+::placeholder {
+    color: #445567;
+    font-size: 1rem;
+}
+
+input[type=submit]{
+    width: 100%;
+    min-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #8c54ff;
+    padding: 10px 10px;;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+input[type=checkbox]{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+
+li {
+    list-style: none;
+    margin: 0px 0px 40px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
