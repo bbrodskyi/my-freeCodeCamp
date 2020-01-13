@@ -5,6 +5,7 @@ body {
     color: #20355a;
     font-size: 16px;
     margin: 0px;
+    padding: 0px;
 }
 
 /* ----- Typography ----- */
@@ -55,15 +56,33 @@ label {
 
 #checkbox {
     color: #445567;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-#radio {
+#radio-wrapper {
+    color: #445567;
+    font-size: 1rem;
+}
+
+input[type=radio] {
     color: #445567;
     font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email]{
+    width: 97%;
+    min-height: 45px;
+    border: 1px #000;
+    border-radius: 6px;
+    padding-left: 20px;
+    background-color: #f5f5fa;
+    line-height: 1.2;
+    color: #333;
+}
+
+input[type=number] {
     width: 97%;
     min-height: 45px;
     border: 1px #000;
@@ -82,7 +101,7 @@ input[type=text], input[type=email] {
 input[type=submit]{
     width: 100%;
     min-height: 45px;
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
     border-radius: 6px;
     background-color: #8c54ff;
@@ -93,19 +112,36 @@ input[type=submit]{
     font-weight: 500;
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
     margin-bottom: 20px;
     margin-right: 10px;
 }
 
 select {
     width: 100%;
+    min-height: 45px;
+    border: 1px #000;
+    border-radius: 6px;
+    padding-left: 20px;
+    background-color: #f5f5fa;
+}
+
+option {
+    line-height: 1.2;
+    color: #333;
 }
 
 textarea {
-    width: 100%;
+    width: 97%;
+    border: 1px #000;
+    border-radius: 6px;
+    padding-left: 20px;
+    background-color: #f5f5fa;
 }
 
+#bottom {
+    margin-bottom: 0px;
+}
 
 li {
     list-style: none;

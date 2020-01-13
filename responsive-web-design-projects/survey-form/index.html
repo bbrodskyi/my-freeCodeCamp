@@ -38,11 +38,11 @@
 
                     <li>
                         <label id="email-label" for="email">Email</label><br>
-                        <input type="email" id="email" name="user_mail" required placeholder="Email">
+                        <input type="email" id="email" name="user_mail" required placeholder="Emagil">
                     </li>
 
                     <li>
-                        <label id="number-label" for="number">Age(optional)</label><br>
+                        <label id="number-label" for="number">Age (optional)</label><br>
                         <input type="number" id="number" name="user_age" min="10" max="99" placeholder="Age">
                     </li>
 
@@ -57,21 +57,13 @@
                         </select> 
                     </li>
 
-                    <li>
+                    <li id="radio-wrapper">
                         <label id="radio-label" for="radio">Would you recommend freeCodeCamp to a friend?</label><br>
                         <form id="radio" action="">
 
-                            <label for="definitely"> 
-                                <input id="definitely" value="definitely" type="radio" name="definitely-maybe-notsure" checked>Definitely 
-                            </label><br>
-
-                            <label for="maybe"> 
-                                <input id="maybe" value="maybe" type="radio" name="definitely-maybe-notsure">Maybe 
-                            </label><br>
-
-                            <label for="notsure"> 
-                                <input id="notsure" value="notsure" type="radio" name="definitely-maybe-notsure"name="definitely-maybe-notsure">Definitely 
-                            </label><br>
+                            <input id="definitely" value="definitely" type="radio" name="definitely-maybe-notsure" checked="">Definitely<br>
+                            <input id="maybe" value="maybe" type="radio" name="definitely-maybe-notsure">Maybe<br>
+                            <input id="notsure" value="notsure" type="radio" name="definitely-maybe-notsure"name="definitely-maybe-notsure">Definitely 
 
                         </form>
                     </li>
@@ -100,11 +92,12 @@
                         </form>
                     </li>
 
-                    <li>
+                    <li id="bottom">
                         <label id="textarea-label" for="textarea">Would you recommend freeCodeCamp to a friend?</label><br>
                         <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea><br>
-                        <input id="submit" type="submit">
                     </li>
+
+                    <input id="submit" type="submit">
 
                 </ul>
             </form>
