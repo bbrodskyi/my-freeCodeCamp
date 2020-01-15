@@ -1,0 +1,125 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* General Styles */
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: none;
+    max-width: 60%;
+}
+
+.hero-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Header Section */
+#header {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    border-bottom: 1px;
+}
+
+#header-content {
+    max-width: 1200px;
+    min-height: 4rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    display: inline;
+}
+
+#logo-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 1rem;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 2rem;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.button {
+    font-size: 0.75rem;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #4353ff;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+/* Hero Section */
+#hero-wrapper {
+    width: 100%;
+}
+
+#hero {
+    max-width: 1200px;
+    min-height: 40rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+input[type=email] {
+    margin-top: 3rem;
+    background-color: #f6f6f6;
+    padding: 20px 20px;
+    width: 40%;
+    color: #18181d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    border-style: none;
+    border-radius: 0px;
+}
