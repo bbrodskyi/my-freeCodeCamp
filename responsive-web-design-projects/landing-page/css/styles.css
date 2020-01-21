@@ -20,7 +20,11 @@ h3 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 4rem;
+<<<<<<< HEAD
     line-height: 1.2;
+=======
+    line-height: 1.4;
+>>>>>>> develop
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -114,7 +118,11 @@ input[type=email] {
     margin-top: 3rem;
     background-color: #f6f6f6;
     padding: 20px 20px;
+<<<<<<< HEAD
     width: 40%;
+=======
+    width: 60%;
+>>>>>>> develop
     color: #18181d;
     font-size: 14px;
     line-height: 24px;
@@ -122,4 +130,25 @@ input[type=email] {
     text-transform: none;
     border-style: none;
     border-radius: 0px;
+<<<<<<< HEAD
+=======
+}
+
+input[type=submit] {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #4353ff;
+    color: #fff;
+    border-style: none;
+    border-radius: 0px;
+}
+
+/* Features Section */
+#features-wrapper {
+    background-color: #191920;
+    min-height: 14rem;
+>>>>>>> develop
 }
