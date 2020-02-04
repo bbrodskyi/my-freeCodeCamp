@@ -16,6 +16,8 @@ h3 {
     max-width: 60%;
 }
 
+/* Header Section */
+
 .hero-text{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -25,7 +27,6 @@ h3 {
     text-transform: uppercase;
 }
 
-/* Header Section */
 #header {
     width: 100%;
     position: sticky;
@@ -138,6 +139,19 @@ input[type=submit] {
 
 /* Features Section */
 #features-wrapper {
-    background-color: #191920;
     min-height: 14rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
 }
